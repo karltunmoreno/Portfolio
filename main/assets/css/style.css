@@ -15,15 +15,15 @@
 body {
   color: var(--tertiary-color);
   font-family: Helvetica, Arial, sans-serif;
+  
 }
 
 header {
-  background-color: rgb(108, 224, 240);
+  background-color: rgb(16, 223, 238);
   padding: 35px 35px;
   background-position: 80%;
   background-attachment:fixed;
   background-size: cover;
-  /* 2.2 - added flex and removed inline / float properties from h1 and nav */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,6 +35,7 @@ header {
 }
 
 header h1 {
+  font-display: left;
   font-weight: bold;
   margin: 0;
   font-size: 36px;
@@ -75,33 +76,6 @@ header nav ul li a:hover {
   border-radius: 15px;
   text-shadow:none;
 }
-
-/* FOOTER STYLES START */
-footer {
-  background: var(--secondary-color);
-  padding: 40px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  color: var(--primary-color);
-  width: 100%;
-}
-
-footer h2 {
-  font-size: 30px;
-  margin: 0;
-}
-
-footer div {
-  line-height: 1.5;
-  text-align: right;
-}
-
-footer a {
-  color: var(--primary-color);
-}
-/* END FOOTER STYLES */
-
 /* STYLE ALL SECTION TAGS */
 section {
   padding: 60px;
@@ -126,15 +100,17 @@ section {
 }
 /* SECTION TITLE STYLES END */
 
-/* WHAT WE DO STYLES */
+/* PROFILE */
 
 .intro p {
   line-height: 1.7;
   color: var(--tertiary-color);
   width: 80%;
   margin: 0 auto;
-  font-size: 20px;
-  text-align: center;
+  font-size: 30px;
+  text-align: left;
+
+  
 }
 /* REACH OUT STYLES START */
 .contact {
@@ -195,7 +171,7 @@ section {
   margin-bottom: 15px;
   margin-top: 5px; 
   border-radius: 10px;
-  background-color: rgba(255,255,255, 0.75);
+  background-color: rgba(240, 224, 224, 0.75);
 }
 
 .contact-form textarea {
@@ -224,29 +200,7 @@ section {
 }
 /* REACH OUT STYLES END */
 
-/* UTILITIES */
-.flex-row {
-  display: flex;
-}
 
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
 
 /* 2.4 - MEDIA QUERIES FOR SMALL SCREENS TO TABLETS */
 @media screen and (max-width: 980px) {
@@ -281,6 +235,35 @@ section {
     width: 100%;
   }
 
+
+  /* Style all font awesome icons */
+.fa {
+  padding: 70px;
+  font-size: 70px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
 }
 
 /* 2.4 - MEDIA QUERIES FOR TABLETS DOWN TO PHONES */
@@ -310,7 +293,7 @@ section {
 
   .step-img {
     flex: 0 32%;
-    margin-right: 0;
+    margin-right: ce;
     margin-top: 15px;
     margin-bottom: 15px;
   }
@@ -323,21 +306,7 @@ section {
   }/* 2.4 - MEDIA QUERIES FOR PHONE */
 @media screen and (max-width: 575px) {
   
-  .hero-form button {
-    width: 100%;
-  }
 
-  .section-title {
-    width: 95%;
-  }
-
-  .intro p {
-    width: 100%;
-  }
-
-  .trainer {
-    flex: 0 100%;
-  }
 
   .contact-info > * {
     flex: 0 100%;
