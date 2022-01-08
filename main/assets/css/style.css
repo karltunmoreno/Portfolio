@@ -5,7 +5,7 @@
 }
 
 :root {
-  --primary-color: #3866fc;
+  --primary-color: #38f5fc;
   --secondary-color: #024e76;
   --tertiary-color: #101213;
   --primary-color-transparent: rgba(175, 160, 192, 0.8);
@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background-color: rgb(16, 223, 238);
+  background-color: #024e76;
   padding: 35px 35px;
   background-position: 80%;
   background-attachment:fixed;
@@ -92,7 +92,7 @@ section {
   font-size: 48px;
   padding-bottom: 20px;
   width: 50%;
-  border-bottom: 3px solid;
+  border-bottom: 2px solid;
   margin: 0 auto 35px auto;
   color: var(--secondary-color);
   text-align: center;
@@ -245,7 +245,7 @@ section {
 
   /* Style all font awesome icons */
 .fa {
-  padding: 70px;
+  padding: 50px;
   font-size: 70px;
   width: 50px;
   text-align: center;
