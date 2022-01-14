@@ -26,7 +26,7 @@ header {
   background-size: cover;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left-right;
   flex-wrap: wrap;
   position:sticky;
   position: -webkit-sticky;
@@ -35,12 +35,20 @@ header {
 }
 
 header h1 {
+  display: flex;
+  flex-wrap:wrap;
+  align-items:left;
   font-display: left;
   font-weight: bold;
   margin: 0;
   font-size: 36px;
   color: var(--primary-color);
   text-shadow: 0px 0 15px rgba(0, 0, 0, 0.5);
+
+}
+
+header h2 {
+   align-items: stretch;
 }
 
 header a {
