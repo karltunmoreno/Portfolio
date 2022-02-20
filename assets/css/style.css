@@ -70,13 +70,33 @@ header a {
 
 .outerboundspictures {
   height: 300px;
-  width: 320px;
+  width: 370px;
 }
 
 .karltunmoreno360 {
   height: 300px;
-  width: 320px;
+  width: 420px;
 
+}
+
+.timedquiz {
+  height: 300px;
+  width: 465px;
+}
+
+.travelbuddy {
+  height: 300px;
+  width: 465px;
+}
+
+.workdayscheduler {
+    height: 300px;
+    width: 420px;
+}
+
+.currencyexchange {
+      height: 300px;
+      width: 420px;
 }
 .aboutmesection {
   display: grid;
