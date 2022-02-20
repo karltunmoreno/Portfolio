@@ -15,12 +15,12 @@
 body {
   color: var(--tertiary-color);
   font-family: Helvetica, Arial, sans-serif;
-  
 }
-
+ 
+ 
 header {
   background-color: #024e76;
-  padding: 35px 35px;
+  padding: 25px 25px;
   background-position: 80%;
   background-attachment:fixed;
   background-size: cover;
@@ -47,8 +47,20 @@ header h1 {
 
 }
 
+header h3 {
+  display: flex;
+  flex-wrap:wrap;
+  align-items:left;
+  font-display: left;
+  font-weight: bold;
+  margin: 0;
+  font-size: 24px;
+  color: var(--primary-color);
+  text-shadow: 0px 0 15px rgba(0, 0, 0, 0.5);
+}
+
 header h2 {
-   align-items: stretch;
+   align-items:center;
 }
 
 header a {
@@ -56,11 +68,51 @@ header a {
   color: var(--primary-color);
 }
 
+.outerboundspictures {
+  height: 300px;
+  width: 320px;
+}
+
+.karltunmoreno360 {
+  height: 300px;
+  width: 320px;
+
+}
+.aboutmesection {
+  display: grid;
+  
+}
+
+.selfie {
+  height: 350px;
+  width: 240px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.grid {
+  display: flex;
+}
+
+.FAAlogo {
+  height: 128px;
+  width: 128px;
+
+}
+.aboutmetext {
+  grid-column: 2;
+  grid-row: 1;
+
+  
+  
+
+}
+
 center {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 50%;
+  width: 25%;
 }
 
 header nav {
@@ -93,7 +145,7 @@ header nav ul li a:hover {
 }
 /* STYLE ALL SECTION TAGS */
 section {
-  padding: 60px;
+  padding: 30px;
 }
 /* SECTION TITLE STYLES START */
 .section-title {
@@ -193,6 +245,11 @@ section {
   resize: none;
 }
 
+footer h2, footer div {
+  text-align: center;
+  width: 100%;
+}
+
 .contact-form input:focus, .contact-form textarea:focus {
   background-color: rgb(245, 204, 204);
   outline: none;
@@ -214,6 +271,7 @@ section {
   background: var(--tertiary-color);
 }
 /* REACH OUT STYLES END */
+
 
 
 
