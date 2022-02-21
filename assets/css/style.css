@@ -81,12 +81,12 @@ header a {
 
 .timedquiz {
   height: 340px;
-  width: 560px;
+  width: 595px;
 }
 
 .travelbuddy {
   height: 300px;
-  width: 495px;
+  width: 520px;
 }
 
 .workdayscheduler {
@@ -96,7 +96,7 @@ header a {
 
 .currencyexchange {
       height: 300px;
-      width: 430px;
+      width: 445px;
 }
 .aboutmesection {
   display: grid;
@@ -105,7 +105,7 @@ header a {
 
 .selfie {
   height: 350px;
-  width: 240px;
+  width: 237px;
   grid-column: 1;
   grid-row: 1;
 }
