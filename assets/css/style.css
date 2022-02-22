@@ -5,7 +5,7 @@
 }
 
 :root {
-  --primary-color: #38f5fc;
+  --primary-color: #acdadb;
   --secondary-color: #024e76;
   --tertiary-color: #101213;
   --primary-color-transparent: rgba(175, 160, 192, 0.8);
@@ -15,6 +15,7 @@
 body {
   color: var(--tertiary-color);
   font-family: Helvetica, Arial, sans-serif;
+  background-color: #d7eef0;
 }
  
  
