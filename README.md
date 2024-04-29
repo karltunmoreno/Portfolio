@@ -10,5 +10,8 @@ this is my professional portfolio. this push is also a work in progress as I add
 
 <p align="center"> :octocat: <b><a href="https://karltunmoreno.github.io/Portfolio/"> GO TO FIRST EVER CODING PORTFOLIO </a>
 
+______________________________________________________________________________________________________________
+
+TECH USED:
 
 
