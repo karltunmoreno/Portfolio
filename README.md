@@ -3,7 +3,7 @@ this is my professional portfolio. this push is also a work in progress as I add
 
 
 
-![Ss](https://media.licdn.com/dms/image/D4E22AQGQJpqhAwOYng/feedshare-shrink_800/0/1708550181428?e=1711584000&v=beta&t=c0DqsQfH2OfxS44yc_0vRe0yQzEinx828SlRivs2Bi4)
+![Ss](https://media.licdn.com/dms/image/D4E22AQGQJpqhAwOYng/feedshare-shrink_1280/0/1708550181428?e=1717027200&v=beta&t=5QGL3KV5DhvsPFuYy2a8WynJeRh3rI7hLjeCOa-bQDE)
 
 
 
